@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.Clean2Btn = new System.Windows.Forms.Button();
+            this.Paint1Btn = new System.Windows.Forms.Button();
+            this.Clean1Btn = new System.Windows.Forms.Button();
+            this.Paint2Btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // panel1
@@ -44,55 +44,55 @@
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // button1
+            // Clean2Btn
             // 
-            this.button1.Location = new System.Drawing.Point(290, 308);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(77, 36);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Clean ";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Clean2Btn.Location = new System.Drawing.Point(290, 308);
+            this.Clean2Btn.Name = "Clean2Btn";
+            this.Clean2Btn.Size = new System.Drawing.Size(77, 36);
+            this.Clean2Btn.TabIndex = 1;
+            this.Clean2Btn.Text = "Clean ";
+            this.Clean2Btn.UseVisualStyleBackColor = true;
+            this.Clean2Btn.Click += new System.EventHandler(this.Clean2Btn_Click);
             // 
-            // button2
+            // Paint1Btn
             // 
-            this.button2.Location = new System.Drawing.Point(25, 249);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(145, 53);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Paint1";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.Paint1Btn.Location = new System.Drawing.Point(25, 249);
+            this.Paint1Btn.Name = "Paint1Btn";
+            this.Paint1Btn.Size = new System.Drawing.Size(145, 53);
+            this.Paint1Btn.TabIndex = 2;
+            this.Paint1Btn.Text = "Paint1";
+            this.Paint1Btn.UseVisualStyleBackColor = true;
+            this.Paint1Btn.Click += new System.EventHandler(this.Paint1Btn_Click);
             // 
-            // button3
+            // Clean1Btn
             // 
-            this.button3.Location = new System.Drawing.Point(59, 308);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Clean";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.Clean1Btn.Location = new System.Drawing.Point(59, 308);
+            this.Clean1Btn.Name = "Clean1Btn";
+            this.Clean1Btn.Size = new System.Drawing.Size(75, 23);
+            this.Clean1Btn.TabIndex = 3;
+            this.Clean1Btn.Text = "Clean";
+            this.Clean1Btn.UseVisualStyleBackColor = true;
+            this.Clean1Btn.Click += new System.EventHandler(this.Clean1Btn_Click);
             // 
-            // button4
+            // Paint2Btn
             // 
-            this.button4.Location = new System.Drawing.Point(271, 244);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(123, 62);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "paint2";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.Paint2Btn.Location = new System.Drawing.Point(271, 244);
+            this.Paint2Btn.Name = "Paint2Btn";
+            this.Paint2Btn.Size = new System.Drawing.Size(123, 62);
+            this.Paint2Btn.TabIndex = 4;
+            this.Paint2Btn.Text = "paint2";
+            this.Paint2Btn.UseVisualStyleBackColor = true;
+            this.Paint2Btn.Click += new System.EventHandler(this.Paint2Btn_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(702, 359);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Paint2Btn);
+            this.Controls.Add(this.Clean1Btn);
+            this.Controls.Add(this.Paint1Btn);
+            this.Controls.Add(this.Clean2Btn);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -103,10 +103,10 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button Clean2Btn;
+        private System.Windows.Forms.Button Paint1Btn;
+        private System.Windows.Forms.Button Clean1Btn;
+        private System.Windows.Forms.Button Paint2Btn;
     }
 }
 

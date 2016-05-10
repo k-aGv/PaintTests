@@ -14,21 +14,28 @@ namespace WindowsFormsApplication1
         
         bool status = false;
         bool status2 = false;
+
+        /* 2 graphics.
+         * Why we didnt do it before?Because we had CreateGraphics() function.
+         * Now,we save/hold our graphics via PaintEventArgs e (build in shit)
+         */
         Graphics g,gp;
        
         public Form1()
         {
             InitializeComponent();
-            
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Clean2Btn_Click(object sender, EventArgs e)
         {
             status2 = false;
             panel1.Refresh();
             
         }
-
+        //----------PaintEventArgs.Not EventArgs------
+        //                                           |
+        //                                           |
+        //                                           V
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
             if (status)
@@ -36,7 +43,6 @@ namespace WindowsFormsApplication1
                 Pen p =new Pen( Color.Black);
                 g = e.Graphics;
                 g.DrawRectangle(p, 10, 10, 20, 20);
-               // g.Dispose();
             }
             
             if (status2)
@@ -44,24 +50,23 @@ namespace WindowsFormsApplication1
                 Pen p2 = new Pen(Color.Red);
                 gp = e.Graphics;
                 gp.DrawRectangle(p2, 20, 20, 40, 40);
-                //gp.Dispose();
             }
              
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Paint1Btn_Click(object sender, EventArgs e)
         {
             status = true;
             panel1.Refresh();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void Clean1Btn_Click(object sender, EventArgs e)
         {
             status = false;    
             panel1.Refresh();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void Paint2Btn_Click(object sender, EventArgs e)
         {
             status2 = true;
             panel1.Refresh();
