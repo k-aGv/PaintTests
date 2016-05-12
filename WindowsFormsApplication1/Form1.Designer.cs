@@ -33,12 +33,14 @@
             this.Paint1Btn = new System.Windows.Forms.Button();
             this.Clean1Btn = new System.Windows.Forms.Button();
             this.Paint2Btn = new System.Windows.Forms.Button();
+            this.Paint3Btn = new System.Windows.Forms.Button();
+            this.Clean3Btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.panel1.Location = new System.Drawing.Point(123, 31);
+            this.panel1.Location = new System.Drawing.Point(183, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(300, 200);
             this.panel1.TabIndex = 0;
@@ -58,7 +60,7 @@
             // 
             this.Paint1Btn.Location = new System.Drawing.Point(25, 249);
             this.Paint1Btn.Name = "Paint1Btn";
-            this.Paint1Btn.Size = new System.Drawing.Size(145, 53);
+            this.Paint1Btn.Size = new System.Drawing.Size(145, 57);
             this.Paint1Btn.TabIndex = 2;
             this.Paint1Btn.Text = "Paint1";
             this.Paint1Btn.UseVisualStyleBackColor = true;
@@ -66,9 +68,9 @@
             // 
             // Clean1Btn
             // 
-            this.Clean1Btn.Location = new System.Drawing.Point(59, 308);
+            this.Clean1Btn.Location = new System.Drawing.Point(56, 308);
             this.Clean1Btn.Name = "Clean1Btn";
-            this.Clean1Btn.Size = new System.Drawing.Size(75, 23);
+            this.Clean1Btn.Size = new System.Drawing.Size(75, 36);
             this.Clean1Btn.TabIndex = 3;
             this.Clean1Btn.Text = "Clean";
             this.Clean1Btn.UseVisualStyleBackColor = true;
@@ -84,11 +86,33 @@
             this.Paint2Btn.UseVisualStyleBackColor = true;
             this.Paint2Btn.Click += new System.EventHandler(this.Paint2Btn_Click);
             // 
+            // Paint3Btn
+            // 
+            this.Paint3Btn.Location = new System.Drawing.Point(485, 244);
+            this.Paint3Btn.Name = "Paint3Btn";
+            this.Paint3Btn.Size = new System.Drawing.Size(129, 58);
+            this.Paint3Btn.TabIndex = 5;
+            this.Paint3Btn.Text = "paint3";
+            this.Paint3Btn.UseVisualStyleBackColor = true;
+            this.Paint3Btn.Click += new System.EventHandler(this.Paint3Btn_Click);
+            // 
+            // Clean3Btn
+            // 
+            this.Clean3Btn.Location = new System.Drawing.Point(509, 308);
+            this.Clean3Btn.Name = "Clean3Btn";
+            this.Clean3Btn.Size = new System.Drawing.Size(75, 36);
+            this.Clean3Btn.TabIndex = 6;
+            this.Clean3Btn.Text = "Clean";
+            this.Clean3Btn.UseVisualStyleBackColor = true;
+            this.Clean3Btn.Click += new System.EventHandler(this.Clean3Btn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(702, 359);
+            this.Controls.Add(this.Clean3Btn);
+            this.Controls.Add(this.Paint3Btn);
             this.Controls.Add(this.Paint2Btn);
             this.Controls.Add(this.Clean1Btn);
             this.Controls.Add(this.Paint1Btn);
@@ -107,6 +131,8 @@
         private System.Windows.Forms.Button Paint1Btn;
         private System.Windows.Forms.Button Clean1Btn;
         private System.Windows.Forms.Button Paint2Btn;
+        private System.Windows.Forms.Button Paint3Btn;
+        private System.Windows.Forms.Button Clean3Btn;
     }
 }
 

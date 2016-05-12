@@ -12,3 +12,4 @@ C:\Users\Administrator\Desktop\k-aGv\PaintTests\WindowsFormsApplication1\bin\Deb
 C:\Users\Administrator\Desktop\k-aGv\PaintTests\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
 C:\Users\Administrator\Desktop\k-aGv\PaintTests\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\Administrator\Desktop\k-aGv\PaintTests\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\k-aGv\PaintTests\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
